@@ -22,27 +22,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~bootstrap/scss/bootstrap.scss';
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-#app {
-  font-family: 'Roboto', sans-serif;
-  font-size: 100%;
-  .title {
-    font-family: 'Playfair Display', serif;
-  }
-  .my_btn {
-    background-color: #26aa94;
-    color: white;
-    font-weight: bold;
-    border: 0;
-    border-radius: 10px;
-    padding: 0 5em;
-    &:hover,
-    &:active {
-      background-color: #4d4374;
-    }
-}
-}
+@import './assets/scss/style.scss'
 </style>

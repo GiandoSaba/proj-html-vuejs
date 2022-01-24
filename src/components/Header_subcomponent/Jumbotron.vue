@@ -29,7 +29,7 @@
       <h1 class="title my-4">
         Peace On Earth A Wonderful Wish But No Way
       </h1>
-      <h3 class="fs-5 text-secondary">
+      <h3 class="fs-6 text-secondary">
         Success isn't overnight.
         It's when everyday you get a little better than the day before.
         It's all adds up.
@@ -74,9 +74,6 @@ section {
   }
   .title {
     font-size: 4em;
-  }
-  .subtitle {
-    letter-spacing: 3px;
   }
   .image {
     background-image: url('../../assets/img/home-movation-shape-face.png');
