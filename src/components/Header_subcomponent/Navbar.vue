@@ -14,7 +14,7 @@
         class="list-inline-item mx-3 align-middle"
       >
         <a
-          class="text-decoration-none mx-1"
+          class="text-reset text-decoration-none mx-1"
           :href="item.url"
         > {{ item.name }} </a>
         <i class="fas fa-angle-down" />
@@ -74,8 +74,5 @@ export default {
 <style scoped lang="scss">
 nav {
   color: #3F3A64;
-  a {
-    color: inherit;
-  }
 }
 </style>

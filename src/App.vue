@@ -24,10 +24,10 @@ export default {
 <style lang="scss">
 @import '~bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 #app {
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 100%;
   .title {
     font-family: 'Playfair Display', serif;
