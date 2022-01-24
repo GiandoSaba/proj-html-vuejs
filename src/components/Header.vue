@@ -23,6 +23,6 @@ export default {
 <style scoped lang="scss">
 header {
     background-image: url('../assets/img/background-pattern-wavify.png');
-    background-color: #43789d2c;
+    background-color: #43789d1f;
 }
 </style>

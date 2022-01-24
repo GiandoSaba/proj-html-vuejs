@@ -7,7 +7,7 @@
         alt="Logo"
       >
     </div>
-    <ul class="list-inline col-8 text-center m-0">
+    <ul class="list-inline col-8 text-center m-0 fw-medium">
       <li
         v-for="(item,index) in navItems"
         :key="index"
@@ -20,7 +20,7 @@
         <i class="fas fa-angle-down" />
       </li>
     </ul>
-    <div class="social-ico col-2 d-flex gap-3">
+    <div class="social-ico col-2 d-flex gap-3 fs-5">
       <i class="fab fa-twitter" />
       <i class="fab fa-facebook-f" />
       <i class="fab fa-instagram" />
