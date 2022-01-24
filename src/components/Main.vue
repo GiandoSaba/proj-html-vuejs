@@ -2,10 +2,7 @@
   <main class="py-5">
     <div class="container py-5">
       <SectionNumber />
-    <!-- Section-Numbers -->
-    <!-- /Section-Numbers -->
-    <!-- Section-AboutMe -->
-    <!-- /Section-AboutMe -->
+      <SectionAbout />
     <!-- Section-LatestCourse -->
     <!-- /Section-LatestCourse -->
     <!-- Section-BookStore -->
@@ -22,11 +19,13 @@
 
 <script>
 import SectionNumber from './Main_subcomponent/SectionNumber.vue';
+import SectionAbout from './Main_subcomponent/SectionAbout.vue';
 
 export default {
   name: 'Main',
   components: {
     SectionNumber,
+    SectionAbout,
   },
 };
 </script>

@@ -2,11 +2,15 @@
 @import './parzials/variables';
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;700&display=swap');
 
 #app {
     font-family: 'Spartan', sans-serif;
     font-size: 100%;
+
+    .text-green {
+        color: $green-color;
+    }
 
     .title {
         font-family: 'Playfair Display', serif;
@@ -15,6 +19,8 @@
     .subtitle {
         font-family: 'Darker Grotesque', sans-serif;
         letter-spacing: 3px;
+        text-transform: uppercase;
+
     }
 
     .my_btn {

@@ -24,7 +24,7 @@
     </div>
     <div class="col-6 m-auto px-5">
       <h2 class="fs-6 subtitle">
-        I'M WINGMAN
+        I'm Wingman
       </h2>
       <h1 class="title my-4">
         Peace On Earth A Wonderful Wish But No Way

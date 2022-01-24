@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-5">
+  <section class="py-5">
     <div class="row row-cols-4 justify-content-center">
       <div
         v-for="item in numberList"
@@ -7,7 +7,7 @@
         class="col text-center number-container"
       >
         <h1> {{ item.number }} </h1>
-        <h2 class="text-uppercase subtitle fs-5">
+        <h2 class="subtitle fs-5">
           {{ item.title }}
         </h2>
       </div>
