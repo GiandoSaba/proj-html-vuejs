@@ -8,33 +8,38 @@
     font-family: 'Spartan', sans-serif;
     font-size: 100%;
 
-    .text-green {
-        color: $green-color;
-    }
+}
 
-    .title {
-        font-family: 'Playfair Display', serif;
-    }
+.text-green {
+    color: $green-color;
+}
 
-    .subtitle {
-        font-family: 'Darker Grotesque', sans-serif;
-        letter-spacing: 3px;
-        text-transform: uppercase;
+.image-rounded {
+    border-radius: 10px;
+}
 
-    }
+.title {
+    font-family: 'Playfair Display', serif;
+}
 
-    .my_btn {
-        background-color: $green-color;
-        color: white;
-        font-weight: bold;
-        font-size: 0.8em;
-        border: 0;
-        border-radius: 10px;
-        padding: 0 5em;
+.subtitle {
+    font-family: 'Darker Grotesque', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 
-        &:hover,
-        &:active {
-            background-color: $button-hover;
-        }
+}
+
+.my_btn {
+    background-color: $green-color;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: 0;
+    border-radius: 10px;
+    padding: 0 5em;
+
+    &:hover,
+    &:active {
+        background-color: $button-hover;
     }
 }
