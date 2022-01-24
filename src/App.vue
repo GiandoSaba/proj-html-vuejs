@@ -1,43 +1,22 @@
 <template>
   <div id="app">
-  <!-- Header -->
-    <!-- Header-Nav -->
-    <!-- /Header-Nav -->
-    <!-- Jumbotron -->
-    <!-- /Jumbotron -->
-  <!-- /Header -->
-  <!-- Main -->
-    <!-- Section-Numbers -->
-    <!-- /Section-Numbers -->
-    <!-- Section-AboutMe -->
-    <!-- /Section-AboutMe -->
-    <!-- Section-LatestCourse -->
-    <!-- /Section-LatestCourse -->
-    <!-- Section-BookStore -->
-    <!-- /Section-BookStore -->
-    <!-- Section-Ico -->
-    <!-- /Section-Ico -->
-    <!-- Section-Testimonial -->
-    <!-- /Section-Testimonial -->
-    <!-- Section-Articles -->
-    <!-- /Section-Articles -->
-  <!-- /Main -->
-  <!-- Footer -->
-    <!-- Info -->
-    <!-- /Info -->
-    <!-- Link -->
-    <!-- /Link -->
-    <!-- Copyright -->
-    <!-- /Copyright -->
-  <!-- /Footer -->
+    <Header />
+    <Main />
+    <Footer />
   </div>
 </template>
 
 <script>
+import Header from './components/Header.vue';
+import Main from './components/Main.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
+    Header,
+    Main,
+    Footer,
   },
 };
 </script>
