@@ -14,8 +14,18 @@
     color: $green-color;
 }
 
-.image-rounded {
-    border-radius: 10px;
+.image-container {
+    overflow: hidden;
+    border-radius: $b-radius;
+
+    img {
+        border-radius: $b-radius;
+
+        &:hover {
+            transition: 1s linear;
+            transform: scale(1.1);
+        }
+    }
 }
 
 .title {
@@ -35,8 +45,8 @@
     font-weight: bold;
     font-size: 0.8em;
     border: 0;
-    border-radius: 10px;
-    padding: 0 5em;
+    border-radius: $b-radius;
+    padding: 1rem 5em;
 
     &:hover,
     &:active {

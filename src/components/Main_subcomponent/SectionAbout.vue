@@ -25,11 +25,11 @@
           And the important thing is you do love what you do.
         </p>
       </div>
-      <div class="col-6 my-5 image-container">
+      <div class="col-6 my-5 image-container p-0">
         <img
           src="../../assets/img/home-movation-video-poster-670x450.jpg"
           alt="home-movation-video-poster"
-          class="image-rounded img-fluid"
+          class="img-fluid"
         >
         <img
           src="../../assets/img/icon-youtube-play.png"
@@ -69,12 +69,6 @@ export default {
 @import '../../assets/scss/style';
 .image-container {
   position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  .image-rounded:hover{
-    transition: 1s linear;
-    transform: scale(1.1);
-  }
   .youtube-logo {
     position: absolute;
     top: 50%;

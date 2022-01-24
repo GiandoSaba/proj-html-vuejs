@@ -36,7 +36,7 @@
       </h3>
       <button
         type="button"
-        class="my_btn mt-4 py-3"
+        class="my_btn mt-4"
       >
         Get Started for Free
         <i class="fas fa-arrow-right" />
@@ -70,7 +70,8 @@ section {
     background-color: white;
     border-radius: 10px;
     padding: 1em;
-    box-shadow: 0 1px 2px;
+    box-shadow: 0 0 10px 2px grey;
+    position: fixed;
   }
   .title {
     font-size: 4em;
