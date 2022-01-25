@@ -1,8 +1,8 @@
 <template>
-  <footer class="container-fluid">
+  <footer class="container-fluid px-0">
     <div class="container py-3 address">
       <div class="row pt-5">
-        <div class="col-6 address">
+        <div class="col-6">
           <h1 class="fs-6 fw-bold pb-3 text-light">
             Address
           </h1>
@@ -63,6 +63,14 @@
         <div class="col-12 text-center mt-4">
           <p>&copy; 2020 Maxcoach. All Rights Reserved</p>
         </div>
+        <div class="link_up">
+          <a
+            href="#app"
+            class="text-decoration-none text-light"
+          >
+            <i class="fas fa-long-arrow-alt-up" />
+          </a>
+        </div>
       </div>
     </div>
   </footer>
@@ -75,17 +83,32 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '../assets/scss/style';
 footer {
+    position: relative;
     background-color: #141423;
     color: lightgray;
   .address,
   .text-address{
     font-size: 0.9em;
     line-height: 2.5rem;
-    ul{
+  }
+  ul{
       list-style: none;
       padding: 0;
     }
+  .link_up {
+      position: absolute;
+      bottom: 20px;
+      right: 50px;
+      width: 50px;
+      height: 50px;
+      background-color: $green-color;
+      border-radius: 50%;
+      font-size: 2em;
+      text-align: center;
+      line-height: 50px;
   }
 }
+
 </style>
