@@ -5,12 +5,14 @@
       <SectionAbout />
       <SectionLatestcourse />
       <SectionBook />
-    <!-- Section-Ico -->
-    <!-- /Section-Ico -->
-    <!-- Section-Testimonial -->
-    <!-- /Section-Testimonial -->
-    <!-- Section-Articles -->
-    <!-- /Section-Articles -->
+      <SectionIco />
+    </div>
+    <div class="container-fluid p-0">
+      <SectionTestimonial />
+    </div>
+    <div class="container">
+      <!-- Section-Articles -->
+      <!-- /Section-Articles -->
     </div>
   </main>
 </template>
@@ -20,6 +22,8 @@ import SectionNumber from './Main_subcomponent/SectionNumber.vue';
 import SectionAbout from './Main_subcomponent/SectionAbout.vue';
 import SectionLatestcourse from './Main_subcomponent/SectionLatestcourse.vue';
 import SectionBook from './Main_subcomponent/SectionBook.vue';
+import SectionIco from './Main_subcomponent/SectionIco.vue';
+import SectionTestimonial from './Main_subcomponent/SectionTestimonial.vue';
 
 export default {
   name: 'Main',
@@ -28,6 +32,8 @@ export default {
     SectionAbout,
     SectionLatestcourse,
     SectionBook,
+    SectionIco,
+    SectionTestimonial,
   },
 };
 </script>

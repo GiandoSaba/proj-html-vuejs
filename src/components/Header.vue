@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="background-wave">
     <div class="container">
       <Navbar />
       <Jumbotron />
