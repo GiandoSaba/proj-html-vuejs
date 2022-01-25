@@ -8,7 +8,7 @@
         Latest <span class="text-green">Online Courses</span>
       </h1>
     </div>
-    <div class="row row-cols-3 my-5">
+    <div class="row row-cols-3 mt-3 mb-2">
       <Card
         v-for="(card,index) in CardList"
         :key="index"

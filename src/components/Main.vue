@@ -4,8 +4,7 @@
       <SectionNumber />
       <SectionAbout />
       <SectionLatestcourse />
-    <!-- Section-BookStore -->
-    <!-- /Section-BookStore -->
+      <SectionBook />
     <!-- Section-Ico -->
     <!-- /Section-Ico -->
     <!-- Section-Testimonial -->
@@ -20,6 +19,7 @@
 import SectionNumber from './Main_subcomponent/SectionNumber.vue';
 import SectionAbout from './Main_subcomponent/SectionAbout.vue';
 import SectionLatestcourse from './Main_subcomponent/SectionLatestcourse.vue';
+import SectionBook from './Main_subcomponent/SectionBook.vue';
 
 export default {
   name: 'Main',
@@ -27,6 +27,7 @@ export default {
     SectionNumber,
     SectionAbout,
     SectionLatestcourse,
+    SectionBook,
   },
 };
 </script>
