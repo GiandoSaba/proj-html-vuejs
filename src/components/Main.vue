@@ -10,9 +10,8 @@
     <div class="container-fluid p-0">
       <SectionTestimonial />
     </div>
-    <div class="container">
-      <!-- Section-Articles -->
-      <!-- /Section-Articles -->
+    <div class="container py-5">
+      <SectionArticles />
     </div>
   </main>
 </template>
@@ -24,6 +23,7 @@ import SectionLatestcourse from './Main_subcomponent/SectionLatestcourse.vue';
 import SectionBook from './Main_subcomponent/SectionBook.vue';
 import SectionIco from './Main_subcomponent/SectionIco.vue';
 import SectionTestimonial from './Main_subcomponent/SectionTestimonial.vue';
+import SectionArticles from './Main_subcomponent/SectionArticles.vue';
 
 export default {
   name: 'Main',
@@ -34,6 +34,7 @@ export default {
     SectionBook,
     SectionIco,
     SectionTestimonial,
+    SectionArticles,
   },
 };
 </script>

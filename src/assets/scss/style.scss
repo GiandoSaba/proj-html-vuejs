@@ -18,13 +18,13 @@
     overflow: hidden;
     border-radius: $b-radius;
 
-    img {
-        border-radius: $b-radius;
+    &:hover .image {
+        transition: 1s linear;
+        transform: scale(1.1);
+    }
 
-        &:hover {
-            transition: 1s linear;
-            transform: scale(1.1);
-        }
+    .image {
+        border-radius: $b-radius;
     }
 }
 

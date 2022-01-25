@@ -29,7 +29,7 @@
         <img
           src="../../assets/img/home-movation-video-poster-670x450.jpg"
           alt="home-movation-video-poster"
-          class="img-fluid"
+          class="img-fluid image"
         >
         <img
           src="../../assets/img/icon-youtube-play.png"
