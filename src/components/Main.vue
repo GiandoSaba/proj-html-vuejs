@@ -7,10 +7,10 @@
       <SectionBook />
       <SectionIco />
     </div>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 pb-5">
       <SectionTestimonial />
     </div>
-    <div class="container py-5">
+    <div class="container pt-5 pb-3">
       <SectionArticles />
     </div>
   </main>

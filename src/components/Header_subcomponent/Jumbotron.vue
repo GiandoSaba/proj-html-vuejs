@@ -72,6 +72,7 @@ section {
     padding: 1em;
     box-shadow: 0 0 10px 2px grey;
     position: fixed;
+    z-index: 2;
   }
   .title {
     font-size: 4em;
