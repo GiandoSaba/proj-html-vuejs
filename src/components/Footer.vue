@@ -138,6 +138,11 @@ footer {
     position: relative;
     background-color: #141423;
     color: lightgray;
+
+    a:hover {
+      color: $green-color !important;
+    }
+
   .address,
   .text-address{
     font-size: 0.9em;

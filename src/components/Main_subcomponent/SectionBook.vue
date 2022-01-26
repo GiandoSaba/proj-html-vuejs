@@ -34,11 +34,13 @@
                   <li><i class="fas fa-signal" /></li>
                 </ul>
               </div>
-              <img
-                class="img-fluid"
-                :src="require(`../../assets/img/${book.imgUrl}-400x400.jpg`)"
-                :alt="book.imgUrl"
-              >
+              <div class="image-container">
+                <img
+                  class="img-fluid image"
+                  :src="require(`../../assets/img/${book.imgUrl}-400x400.jpg`)"
+                  :alt="book.imgUrl"
+                >
+              </div>
               <h1 class="fs-5 fw-bold mt-4 mb-3">
                 {{ book.title }}
               </h1>
@@ -95,12 +97,22 @@ ul.list-checked {
 }
 .book-container {
   position: relative;
+
+  &:hover ul {
+    display: block;
+  }
+
+  & .image-container:hover ul {
+    display: block;
+  }
+
   ul {
     list-style: none;
     padding: 0;
     position: absolute;
+    z-index: 3;
     top: 10%;
-    right: 12%;
+    right: 10%;
     display: none;
     li {
       width: 40px;
@@ -111,11 +123,6 @@ ul.list-checked {
       border-radius: 50%;
       margin: 1em;
       box-shadow: 0 0 10px #585858a6;
-    }
-  }
-  &:hover {
-    ul {
-      display: block;
     }
   }
 }

@@ -52,7 +52,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.col {
+.col img{
     filter: opacity(0.3);
+    &:hover {
+      filter: opacity(1);
+    }
 }
 </style>

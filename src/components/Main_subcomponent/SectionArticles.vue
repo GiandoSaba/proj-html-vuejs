@@ -23,7 +23,7 @@
           <i class="far fa-calendar" />
           <span class="date">{{ post.date }}</span>
         </div>
-        <h1 class="fw-bold my-4">
+        <h1 class="fw-bold my-4 article_title">
           {{ post.title }}
         </h1>
         <p class="text-secondary">
@@ -76,7 +76,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../../assets/scss/style';
 .col {
+    &:hover .image {
+      transition: 1s linear;
+      transform: scale(1.1);
+    }
 
     .date {
         font-size: 0.8em;
@@ -84,6 +89,10 @@ export default {
     }
     h1 {
         font-size: 1rem;
+        &:hover {
+          color: $green-color;
+          cursor: pointer;
+        }
     }
     p {
         font-size: 0.9rem;
