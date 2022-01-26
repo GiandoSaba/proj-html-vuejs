@@ -110,7 +110,7 @@ ul.list-checked {
       background-color: white;
       border-radius: 50%;
       margin: 1em;
-      box-shadow: 0 5px 10px black;
+      box-shadow: 0 0 10px #585858a6;
     }
   }
   &:hover {

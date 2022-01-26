@@ -50,7 +50,7 @@ export default {
   height: 450px;
   &:hover {
     border-radius: $b-radius;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 10px #585858a6;
     img {
         transition: 1s linear;
         transform: scale(1.1);

@@ -38,24 +38,74 @@
           <div class="row">
             <div class="col-4">
               <ul>
-                <li>Start here</li>
-                <li>Blog</li>
-                <li>About Us</li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-reset text-decoration-none"
+                  >Start here</a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-reset text-decoration-none"
+                  >Blog</a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-reset text-decoration-none"
+                  >About Us</a>
+                </li>
               </ul>
             </div>
             <div class="col-4">
               <ul>
-                <li>Success story</li>
-                <li>Courses</li>
-                <li>Contact Us</li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-reset text-decoration-none"
+                  >Success story</a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-reset text-decoration-none"
+                  >Courses</a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-reset text-decoration-none"
+                  >Contact Us</a>
+                </li>
               </ul>
             </div>
             <div class="col-4">
               <ul>
-                <li>Membership</li>
-                <li>Purchase guide</li>
-                <li>Privacy policy</li>
-                <li>Terms of service</li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-reset text-decoration-none"
+                  >Membership</a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-reset text-decoration-none"
+                  >Purchase guide</a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-reset text-decoration-none"
+                  >Privacy policy</a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-reset text-decoration-none"
+                  >Terms of service</a>
+                </li>
               </ul>
             </div>
           </div>
